@@ -1,0 +1,7 @@
+C:\Users\30010451\Desktop\30010451\wed exercise\wed exercise\bin\Debug\wed exercise.exe.config
+C:\Users\30010451\Desktop\30010451\wed exercise\wed exercise\bin\Debug\wed exercise.exe
+C:\Users\30010451\Desktop\30010451\wed exercise\wed exercise\bin\Debug\wed exercise.pdb
+C:\Users\30010451\Desktop\30010451\wed exercise\wed exercise\obj\Debug\wed exercise.csprojAssemblyReference.cache
+C:\Users\30010451\Desktop\30010451\wed exercise\wed exercise\obj\Debug\wed exercise.csproj.CoreCompileInputs.cache
+C:\Users\30010451\Desktop\30010451\wed exercise\wed exercise\obj\Debug\wed exercise.exe
+C:\Users\30010451\Desktop\30010451\wed exercise\wed exercise\obj\Debug\wed exercise.pdb
