@@ -89,31 +89,47 @@ namespace wed_exercise
             Console.WriteLine("Please enter animal ID number: ");
             a1.IdNum = int.Parse(Console.ReadLine());
 
+            //Display the new animal entry details to the screen once they've been entered.
+            Console.WriteLine($"Species: {a1.Species}\nName: {a1.Name}\nAge: {a1.Age}\nID Number: {a1.IdNum}");
+
+            //Creating new animal array that can hold 5 animals.
+            Animal[] animals = new Animal[5];
            
+            //Creating loop to create 5 more animal records and displaying their details
+            for (int j=0; j<animals.Length; j++)
+            {
+                animals[j] = new Animal();
+                Console.WriteLine("Please enter animal species: ");
+                animals[j].Species = Console.ReadLine();
+                Console.WriteLine("Please enter animal name: ");
+                animals[j].Name = Console.ReadLine();
+                Console.WriteLine("Please enter animal age: ");
+                animals[j].Age = int.Parse(Console.ReadLine());
+                Console.WriteLine("Please enter animal ID number: ");
+                animals[j].IdNum = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Species: {animals[j].Species}\nName: {animals[j].Name}\nAge: {animals[j].Age}\nID Number: {animals[j].IdNum}");         
+            }
         }
-
-      
-
-
-
     }
 
     class Animal
     {
+        //Creating properties for the Animal class
         public string species;
         public string name;
         public int age;
         public int idNum;
 
+        //Creating Get & Set methods for each animal field
         public string Species { get { return species; } set { species = value; } }
         public string Name { get { return name; } set { name = value; } }
         public int Age { get { return age; } set { age = value; } }
         public int IdNum { get { return idNum; } set { idNum = value; } }
         
-        public Animal(string _species, string _name, int _age, int _idNum)
+        //Constructor
+        public Animal()
         {
-            Species = _species;
-            Console.WriteLine("Species: " + spec);
+            Console.WriteLine("\nAnimal record has been created.");
         }
     }
 
